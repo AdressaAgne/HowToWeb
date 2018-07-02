@@ -6,6 +6,24 @@
 * Brukes for å strukturere innhold
 * HTML er grunnmuren og veggene på en nettside.
 
+En HTML fil er bygged opp av tags, en tag har en start og en slutt
+Her kan du se en paragraf tag, slutt taggen har nesten alltid / i slutt taggen.
+```html
+<p></p>
+```
+Det finnes unntag, som f.eks i en bilde tag som ikke har en slutt tag.
+```html
+<img src="dog.jpg" alt="bilde av en hund">
+```
+
+Du kan også se at en img tag har såklate *Attributes* dette er data verdier som er med på å bestemme hvordan tagggen skal oppføre seg.
+
+**src** er image source, som da blir hvor du har bildet lagret.
+
+**alt** er et alternativ til bildet om det ikke skulle vises, her er det best å beskrive bildet kort. Dette er for folk som har nettlesere som leser opp innholdet. pga forskjellige ting, kanskje de er blind.
+
+
+Dette er en basic HTML side. 
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -30,6 +48,11 @@
 </body>
 </html>
 ```
+
+En HTML5 fil starter alltid med *&lt;!DOCTYPE html&gt;* dette sier til nettleser at vi skal bruke verson 5 av html.
+hele siden ligger så i en *&lt;html&gt;* tag.
+etter html taggen har du 2 mulige tags, *&lt;head&gt;* og *&lt;body&gt;*, head er for det meste bare metadata for nettleser. selve siden ligger i *&lt;body&gt;*, her kan du begynne med p tagger og alt annet.
+
 
 ## CSS
 ### Hva er CSS?
