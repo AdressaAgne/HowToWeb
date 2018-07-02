@@ -1,3 +1,13 @@
+# Kode editor
+
+Jeg kan ambefalle ATOM og Visual Studio Code.
+
+* [Atom](https://atom.io/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Brackets](http://brackets.io/)
+* [Notepad++ (Windows only)](https://notepad-plus-plus.org/download/v7.5.7.html)
+
+
 # Språk
 
 ## HTML
